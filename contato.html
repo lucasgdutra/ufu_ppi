@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculo Fulano de Tal</title>
+</head>
+
+<body>
+    <!--
+Página contato.html
+• Essa nova página deve ser acessada por meio de um hiperlink na página index.html na seção
+Contato, com o texto “Clique aqui para entrar em contato”.
+• Deve possuir um formulário com os campos: Nome, e-mail, telefone, um campo de escolha
+indicar se a pessoa é um recrutador ou não, mensagem e um botão para envio.
+• Os rótulos devem ser associados aos campos de maneira apropriada, utilizando o elemento
+<label> em conjunto com o id do campo.
+• Os campos devem possuir os tipos apropriados de acordo com seu conteúdo.
+• A página deve possuir pelo menos uma imagem (incluída no projeto – não deve ser utilizada
+como fonte externa).
+• Deve possuir um hiperlink para voltar à página principal.
+
+    -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Voltar ao inicio</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="img/avatar.jpg" height="200px" alt="Foto do Fulano de Tal" />
+        <form action="#">
+            <div>
+                <label for="nome">Nome</label><br />
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+            </div>
+            <div>
+                <label for="email">E-mail</label><br />
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" />
+            </div>
+            <div>
+                <label for="telefone">Telefone</label><br />
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" />
+            </div>
+            <div>
+                <label for="recrutador">Recrutador?</label><br />
+                <input type="checkbox" name="recrutador" id="recrutador" />
+            </div>
+            <div>
+                <label for="mensagem">Mensagem</label><br />
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                    placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar" />
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
