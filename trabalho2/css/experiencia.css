@@ -1,0 +1,39 @@
+/* Reset some default browser styles */
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #efefef;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    background-color: #dcdcdc;
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    vertical-align: top;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+td img {
+    max-height: 80px;
+    width: auto;
+}

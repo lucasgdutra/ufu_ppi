@@ -1,0 +1,79 @@
+/* Pelo menos 6 tipos diferentes de seletores a serem aplicados,
+sendo obrigatório que um deles seja do tipo classe e um outro do tipo pseudo-classe; */
+/* código CSS deve estar em arquivo separado do HTML.
+ • Faça a validação do HTML e do CSS utilizando as ferramentas do W3C */
+
+/* • A fonte do texto deve ser alterada; */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* • O texto deve ter espaçamento entre linhas de 1,5; */
+body {
+    line-height: 1.5;
+}
+
+/* • A cor do fundo do elemento <body>deve ser alterada, mas a parte principal da página deve ter fundo branco; */
+body {
+    background-color: #c0c0c0;
+}
+
+main,
+nav {
+    background-color: white;
+}
+
+/* • Todos os títulos devem ter a mesma cor (diferente de preta); */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: midnightblue;
+}
+
+
+/* • As propriedades de margin e padding devem ser alteradas para algum dos elementos da página; */
+main,
+nav {
+    margin: 0 10%;
+    padding: 1em;
+}
+
+nav {
+    margin-bottom: 5px;
+}
+
+/* • O conteúdo do corpo deve ocupar 60% da largura e deve ser centralizado horizontalmente. Acrescente o código a seguir na regra CSS correspondente ao elemento <body>: width: 60%;
+margin: 0 auto;
+padding: 2% 0;*/
+body {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+/* A parte principal da página deve principal da página deve possuir bordas com cantos arredondados. Para isso, utilize a seguinte declaração CSS: border-radius: 10px;*/
+main,
+nav {
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
+}
+
+a:hover{
+    color: blueviolet
+}
+
+a:visited {
+    color: #f60941;
+}
+
+#contato  a, #contato > a:hover, #contato > a:visited {
+    color: rgb(5, 21, 197);
+}

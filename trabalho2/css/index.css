@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+}
+
+header :is(.image-box) {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.image-box {
+    max-height: 200px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+}
