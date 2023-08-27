@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+form fieldset {
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form fieldset input {
+    height: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+form fieldset input:hover{
+    box-shadow: black 2px 2px 5px;
+}
+
+form fieldset button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: #ccc 1px solid;
+    cursor: pointer;
+    width: 100%;
+    background-color: #e9e9e9;
+    color: #333;
+}
+
+form fieldset button:hover {
+    background-color: #ccc;
+}
