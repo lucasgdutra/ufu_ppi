@@ -1,0 +1,61 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: auto;
+    height: 100vh;
+}
+
+#board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(80vh - 100px);
+    min-height: 400px;
+}
+
+table {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+table td {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    line-height: calc(10vw - 4px);
+    font-size: calc(10vw - 4px);
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+#aviso {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    /* Dark Blue */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.bg-orange {
+    background-color: #FF5733;
+}
+
+.bg-blue {
+    background-color: #3385FF;
+}

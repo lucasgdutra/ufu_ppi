@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <script type="text/javascript" src="js/velha.js" defer=""></script>
+  </head>
+
+  <body onload="inicia()">
+    <div id="board"></div>
+    <br />
+    <!-- Linha :.<input id="lin" type="number" min="1" max="2" /> <br />
+    Coluna:<input id="col" type="number" min="1" max="2" /> <br />
+    <button onclick="jogar()">Marcar</button><br /> -->
+    <button class="btn" onclick="reinicia()">Reiniciar</button>
+    <div id="aviso"></div>
+    <br />
+
+    <p class="text-center">
+      Nota: Página baseada no código disponível em
+      <a
+        target="_blank"
+        href="https://www.javascriptprogressivo.net/2019/01/Codigo-Completo-Jogo-velha-JavaScriptHTML-JS.htm"
+        >www.javascriptprogressivo.net</a
+      >
+    </p>
+  </body>
+</html>
