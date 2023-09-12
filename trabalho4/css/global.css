@@ -19,11 +19,11 @@ table {
 }
 
 table td {
-    width: 10vw;
-    height: 10vw;
+    width: 8vw;
+    height: 8vw;
     text-align: center;
-    line-height: calc(10vw - 4px);
-    font-size: calc(10vw - 4px);
+    line-height: calc(8vw - 4px);
+    font-size: calc(8vw - 4px);
     border: 2px solid #000;
     cursor: pointer;
 }
