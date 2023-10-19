@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Lembre-se de mim</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/lista.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-wrap" href="/">
+          <img
+            src="/img/logo.svg"
+            class="img-fluid"
+            alt="logomarca - imagem vetorizada de um panda deitado pela lateral"
+            width="50"
+            height="50"
+            loading="lazy"
+            decoding="async"
+          />
+          Lembre-se de mim - Jogo da memória
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link false" aria-current="page" href="/jogos"
+                >Jogar</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/lista">Animais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link false" href="/ranking">Ranking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link false" href="/sobre">Sobre</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Usuário
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/admin">Admin</a></li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="/login">Login</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="my-5">
+        <form class="d-flex mb-3" role="search" id="search-form">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Pesquisar
+          </button>
+        </form>
+        <div>
+          <div class="card mb-3">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 h-100">
+                <img
+                  src="/img/arara-azul-grande.webp"
+                  class="img-fluid rounded-start"
+                  alt="imagem de arara-azul"
+                  width="450"
+                  height="300"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">arara-azul</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Nome Cientifico: anodorhynchus hyacinthinus
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">Classe: Ave</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Número de individuos: Desconhecido
+                  </h6>
+                  <span class="badge text-bg-danger"
+                    >Risco de Extinção Alto</span
+                  >
+                  <p class="card-text">
+                    A arara-azul é uma ave vistosa e barulhenta, conhecida por
+                    suas penas azuis brilhantes e seu bico forte. Vive em áreas
+                    de floresta tropical e tem uma dieta variada que inclui
+                    frutas, nozes e sementes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 h-100">
+                <img
+                  src="/img/boto-grande.webp"
+                  class="img-fluid rounded-start"
+                  alt="imagem de boto-cor-de-rosa"
+                  width="450"
+                  height="338"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">boto-cor-de-rosa</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Nome Cientifico: inia geoffrensis
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Classe: Mamífero
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Número de individuos: Desconhecido
+                  </h6>
+                  <span class="badge text-bg-danger"
+                    >Risco de Extinção Alto</span
+                  >
+                  <p class="card-text">
+                    O boto-cor-de-rosa é um mamífero aquático encontrado na
+                    região amazônica. É conhecido por sua coloração rosada e é o
+                    maior golfinho de água doce do mundo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 h-100">
+                <img
+                  src="/img/jabuti-grande.webp"
+                  class="img-fluid rounded-start"
+                  alt="imagem de jabuti"
+                  width="450"
+                  height="601"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">jabuti</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Nome Cientifico: chelonoidis denticulata
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">Classe: Réptil</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Número de individuos: Desconhecido
+                  </h6>
+                  <span class="badge text-bg-warning"
+                    >Risco de Extinção Médio</span
+                  >
+                  <p class="card-text">
+                    O jabuti é um réptil que possui carapaça óssea, e pode viver
+                    por muitos anos. É um animal lento e herbívoro, podendo
+                    viver tanto em florestas quanto em áreas abertas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 h-100">
+                <img
+                  src="/img/onca-grande.webp"
+                  class="img-fluid rounded-start"
+                  alt="imagem de onça"
+                  width="450"
+                  height="450"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">onça</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Nome Cientifico: panthera onca
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Classe: Mamífero
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Número de individuos: Desconhecido
+                  </h6>
+                  <span class="badge text-bg-success"
+                    >Risco de Extinção Baixo</span
+                  >
+                  <p class="card-text">
+                    A onça-pintada é o maior felino das Américas e o terceiro
+                    maior do mundo, depois do tigre e do leão. É um animal
+                    solitário, territorialista e carnívoro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 h-100">
+                <img
+                  src="/img/pirarucu-grande.webp"
+                  class="img-fluid rounded-start"
+                  alt="imagem de pirarucu"
+                  width="450"
+                  height="338"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">pirarucu</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Nome Cientifico: arapaima gigas
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">Classe: Peixe</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Número de individuos: Desconhecido
+                  </h6>
+                  <span class="badge text-bg-success"
+                    >Risco de Extinção Baixo</span
+                  >
+                  <p class="card-text">
+                    O pirarucu é um dos maiores peixes de água doce do mundo,
+                    podendo atingir até 3 metros de comprimento. É nativo da
+                    Amazônia e tem uma dieta carnívora, alimentando-se de outros
+                    peixes e até mesmo de pequenos animais.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0 h-100">
+              <div class="col-md-4 h-100">
+                <img
+                  src="/img/tucano-grande.webp"
+                  class="img-fluid rounded-start"
+                  alt="imagem de tucano"
+                  width="450"
+                  height="278"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">tucano</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Nome Cientifico: ramphastos toco
+                  </h6>
+                  <h6 class="card-subtitle mb-2 text-muted">Classe: Ave</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Número de individuos: Desconhecido
+                  </h6>
+                  <span class="badge text-bg-warning"
+                    >Risco de Extinção Médio</span
+                  >
+                  <p class="card-text">
+                    O tucano é uma ave conhecida por seu bico grande e colorido.
+                    Vive em florestas tropicais, e alimenta-se de frutas,
+                    insetos e, ocasionalmente, de pequenos vertebrados.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="fixed-bottom text-center bg-light">
+      Trabalho de programação para internet feito por: Guilherme Castilho e
+      Lucas Souza
+    </footer>
+    <script src="/js/lista.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

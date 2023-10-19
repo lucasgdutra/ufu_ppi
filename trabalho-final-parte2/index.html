@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Lembre-se de mim</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-wrap" href="/">
+          <img
+            src="/img/logo.svg"
+            class="img-fluid"
+            alt="logomarca - imagem vetorizada de um panda deitado pela lateral"
+            width="50"
+            height="50"
+            loading="lazy"
+            decoding="async"
+          />
+          Lembre-se de mim - Jogo da memória
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link false" aria-current="page" href="/jogos"
+                >Jogar</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link false" href="/lista">Animais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link false" href="/ranking">Ranking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link false" href="/sobre">Sobre</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Usuário
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/admin">Admin</a></li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="/login">Login</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="card mt-3">
+        <div class="card-body">
+          <p class="card-text">
+            Este projeto é um jogo da memória com cartas de animais em risco de
+            extinção, com o objetivo de conscientizar as pessoas sobre a
+            importância da preservação da fauna e flora.
+          </p>
+
+          <p class="card-text">
+            Este projeto se relaciona com os seguintes objetivos das nações
+            unidas:
+          </p>
+          <ul>
+            <li>
+              ODS 13 - Ações climáticas - Pois trata sobre animais que entraram
+              em risco de extinção devido a mudança climáticas e ações do homem
+            </li>
+            <li>
+              ODS 14 - Vida na água - Pois trata sobre animais aquaticos em
+              risco de extinção
+            </li>
+            <li>
+              ODS 15 - Vida terrestre - Pois trata sobre animais terrestres em
+              risco de extinção
+            </li>
+          </ul>
+          <a href="jogos" class="btn btn-primary">Começar a jogar</a>
+        </div>
+      </div>
+      <div class="card mt-3">
+        <div class="card-body">
+          <h5 class="card-title">Mapa de url's</h5>
+          <ul>
+            <li>
+              <a href="/" target="_blank">Página Inicial</a>
+            </li>
+            <li>
+              <a href="/jogos" target="_blank">Lista de Jogos</a>
+            </li>
+            <li>
+              <a href="/jogos/variados" target="_blank">Jogo de exemplo</a>
+            </li>
+            <li>
+              <a href="/lista" target="_blank">Lista de animais</a>
+            </li>
+            <li>
+              <a href="/ranking" target="_blank">Ranking de Jogadores</a>
+            </li>
+            <li>
+              <a href="/sobre" target="_blank">Sobre</a>
+            </li>
+            <li>
+              <a href="/login" target="_blank">Login</a>
+            </li>
+            <li>
+              <a href="/cadastro" target="_blank">Cadastro de usuário</a>
+            </li>
+            <li>
+              <a href="/admin" target="_blank">Página administrativa</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="fixed-bottom text-center bg-light">
+      Trabalho de programação para internet feito por: Guilherme Castilho e
+      Lucas Souza
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
